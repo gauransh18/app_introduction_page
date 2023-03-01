@@ -43,17 +43,19 @@ class _Page1State extends State<Page1> {
               width: 200,
               child: melloSVG,
             ),
-            const SizedBox(height: 10),
-            Text(
-              'Discover the magic of Marshmello with our app! Explore his music and unique style with exclusive content, behind-the-scenes access, and personalized playlists. Join the party and experience Marshmello like never before. Enjoy the app!',
-              style: GoogleFonts.notoSans(
-                textStyle: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                'Discover the magic of Marshmello with our app! Explore his music and unique style with exclusive content, behind-the-scenes access, and personalized playlists. Join the party and experience Marshmello like never before. Enjoy the app!',
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
           ],
         ),
@@ -80,20 +82,22 @@ class _Page2State extends State<Page2> {
           children: [
             SizedBox(
               height: 200,
-              width: 200,
+              width: 250,
               child: podcastSVG,
             ),
-            const SizedBox(height: 10),
-            Text(
-              "Welcome to our podcast world! Our app has a variety of topics ranging from music, entertainment, news, and lifestyle, giving you access to a world of podcasts. Tune in to your favorite shows or explore new ones, all at your fingertips. Enjoy listening on the go with our app!",
-              style: GoogleFonts.notoSans(
-                textStyle: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                "Welcome to our podcast world! Our app has a variety of topics ranging from music, entertainment, news, and lifestyle, giving you access to a world of podcasts. Tune in to your favorite shows or explore new ones, all at your fingertips. Enjoy listening on the go with our app!",
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
           ],
         ),
@@ -123,17 +127,19 @@ class _Page3State extends State<Page3> {
               width: 200,
               child: happySVG,
             ),
-            const SizedBox(height: 10),
-            Text(
-              "Boost your mood with our app's happy and uplifting songs! Get moving and grooving with our selection of catchy pop tunes and upbeat dance tracks. Enjoy the app and feel the happy vibes!",
-              style: GoogleFonts.notoSans(
-                textStyle: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                "Boost your mood with our app's happy and uplifting songs! Get moving and grooving with our selection of catchy pop tunes and upbeat dance tracks. Enjoy the app and feel the happy vibes!",
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
           ],
         ),
@@ -163,17 +169,20 @@ class _Page4State extends State<Page4> {
               width: 200,
               child: mediaPlayerSVG,
             ),
-            const SizedBox(height: 10),
-            Text(
-              "Thanks for choosing our app! Our app is user-friendly, allowing you to enjoy your favorite tunes with ease. Take control of your music experience with personalized playlists and shuffling songs. Enjoy your music on the go with our app!",
-              style: GoogleFonts.notoSans(
-                textStyle: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                "Thanks for choosing our app! Our app is user-friendly, allowing you to enjoy your favorite tunes with ease. Take control of your music experience with personalized playlists and shuffling songs. Enjoy your music on the go with our app!",
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
           ],
         ),
