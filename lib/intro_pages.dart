@@ -1,5 +1,6 @@
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 //page1
 class Page1 extends StatefulWidget {
@@ -42,6 +43,18 @@ class _Page1State extends State<Page1> {
               width: 200,
               child: melloSVG,
             ),
+            const SizedBox(height: 10),
+            Text(
+              'Discover the magic of Marshmello with our app! Explore his music and unique style with exclusive content, behind-the-scenes access, and personalized playlists. Join the party and experience Marshmello like never before. Enjoy the app!',
+              style: GoogleFonts.notoSans(
+                textStyle: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              textAlign: TextAlign.center,
+            ),
           ],
         ),
       ),
@@ -69,6 +82,18 @@ class _Page2State extends State<Page2> {
               height: 200,
               width: 200,
               child: podcastSVG,
+            ),
+            const SizedBox(height: 10),
+            Text(
+              "Welcome to our podcast world! Our app has a variety of topics ranging from music, entertainment, news, and lifestyle, giving you access to a world of podcasts. Tune in to your favorite shows or explore new ones, all at your fingertips. Enjoy listening on the go with our app!",
+              style: GoogleFonts.notoSans(
+                textStyle: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              textAlign: TextAlign.center,
             ),
           ],
         ),
@@ -98,6 +123,18 @@ class _Page3State extends State<Page3> {
               width: 200,
               child: happySVG,
             ),
+            const SizedBox(height: 10),
+            Text(
+              "Boost your mood with our app's happy and uplifting songs! Get moving and grooving with our selection of catchy pop tunes and upbeat dance tracks. Enjoy the app and feel the happy vibes!",
+              style: GoogleFonts.notoSans(
+                textStyle: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              textAlign: TextAlign.center,
+            ),
           ],
         ),
       ),
@@ -125,6 +162,18 @@ class _Page4State extends State<Page4> {
               height: 200,
               width: 200,
               child: mediaPlayerSVG,
+            ),
+            const SizedBox(height: 10),
+            Text(
+              "Thanks for choosing our app! Our app is user-friendly, allowing you to enjoy your favorite tunes with ease. Take control of your music experience with personalized playlists and shuffling songs. Enjoy your music on the go with our app!",
+              style: GoogleFonts.notoSans(
+                textStyle: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              textAlign: TextAlign.center,
             ),
           ],
         ),

@@ -32,7 +32,16 @@ class _IntroState extends State<Intro> {
             padding: const EdgeInsets.only(bottom: 50),
             child: Container(
               alignment: Alignment.bottomCenter,
-              child: SmoothPageIndicator(controller: _controller, count: 4),
+              child: SmoothPageIndicator(
+                controller: _controller,
+                count: 4,
+                effect: const WormEffect(
+                  dotWidth: 10,
+                  dotHeight: 10,
+                  activeDotColor: Colors.white,
+                  dotColor: Colors.grey,
+                ),
+              ),
             ),
           )
         ],
